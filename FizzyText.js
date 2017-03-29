@@ -43,7 +43,7 @@ function FizzyText(message) {
     this.color1 = "#2abbf2";
     this.color2 = "#660aaf";
     this.color3 = "#f57596";
-    this.bgParticleColor = "#000000";
+    this.bgParticleColor = "#ffffff";
 
     this.fontSize = 100;
     this.fontWeight = 800;
