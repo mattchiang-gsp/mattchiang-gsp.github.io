@@ -53,22 +53,22 @@ window.onload = function() {
 
 	var gui = new dat.GUI();
 	gui.add(fizzyText, 'message');
-	gui.add(fizzyText, 'growthSpeed', -0.01, 1).step(0.01).listen();
-	gui.add(fizzyText, 'maxSize', 0, 8).step(0.25);
-	gui.add(fizzyText, 'noiseStrength', -100, 100).listen();
-	gui.add(fizzyText, 'speed', -1, 1).step(0.01).listen();
-	gui.add(fizzyText, 'bgNoiseStrength', 0, 100).listen();
-	gui.add(fizzyText, 'bgSpeed', -1, 1).step(0.01).listen();
+	gui.add(fizzyText, 'Growth speed', -0.01, 1).step(0.01).listen();
+	gui.add(fizzyText, 'Max size', 0, 8).step(0.25);
+	gui.add(fizzyText, 'Noise strength', -100, 100).listen();
+	gui.add(fizzyText, 'Speed', -1, 1).step(0.01).listen();
+	gui.add(fizzyText, 'bg noise strength', 0, 100).listen();
+	gui.add(fizzyText, 'bg speed', -1, 1).step(0.01).listen();
 	// gui.add(fizzyText, 'displayOutline');
 
-	gui.addColor(fizzyText, 'color0');
-	gui.addColor(fizzyText, 'color1');
-	gui.addColor(fizzyText, 'color2');
-	gui.addColor(fizzyText, 'color3');
+	gui.addColor(fizzyText, 'Color 0');
+	gui.addColor(fizzyText, 'Color 1');
+	gui.addColor(fizzyText, 'Color 2');
+	gui.addColor(fizzyText, 'Color 3');
 	// gui.addColor(fizzyText, 'bgParticleColor');
 
-	gui.add(fizzyText, 'fontSize', 70, 500).listen();
-	gui.add(fizzyText, 'fontWeight', 100, 1000).step(100);
+	gui.add(fizzyText, 'Font size', 70, 500).listen();
+	gui.add(fizzyText, 'Font weight', 100, 1000).step(100);
 	// gui.add(fizzyText, 'explode');
 
 
