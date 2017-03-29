@@ -65,7 +65,7 @@ window.onload = function() {
 	gui.addColor(fizzyText, 'color1');
 	gui.addColor(fizzyText, 'color2');
 	gui.addColor(fizzyText, 'color3');
-	// gui.addColor(fizzyText, 'bgParticleColor');
+	gui.addColor(fizzyText, 'bgParticleColor');
 
 	gui.add(fizzyText, 'fontSize', 70, 500).listen();
 	gui.add(fizzyText, 'fontWeight', 100, 1000).step(100);
