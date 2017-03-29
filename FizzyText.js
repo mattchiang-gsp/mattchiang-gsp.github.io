@@ -19,12 +19,12 @@ function FizzyText(message) {
     // Notice they're all defined with "this". That makes them public.
     // Otherwise, gui-dat can't see them.
 
-    this.growthSpeed = 0.2; // how fast do particles change size?
+    this.growthSpeed = 0.98; // how fast do particles change size?
     // this.maxSize = getRandomIntInclusive(3, 4); // how big can they get?
-    this.maxSize = 3;
-    this.noiseStrength = 5; // how turbulent is the flow?
+    this.maxSize = 1.3;
+    this.noiseStrength = 1.9; // how turbulent is the flow?
     this.bgNoiseStrength = 10;
-    this.speed = -0.4; // how fast do particles move?
+    this.speed = 0; // how fast do particles move?
     this.bgSpeed = 0.4;
     this.displayOutline = false; // should we draw the message as a stroke?
     this.framesRendered = 0;
@@ -39,13 +39,13 @@ function FizzyText(message) {
     // this.color2 = "#ffffff";
     // this.color3 = "#c8feff";
 
-    this.color0 = "#f3e09b";
-    this.color1 = "#00a9f5";
-    this.color2 = "#ffbade";
-    this.color3 = "#ff7699";
-    this.bgParticleColor = "#ffffff";
+    this.color0 = "#f0cf5b";
+    this.color1 = "#2abbf2";
+    this.color2 = "#660aaf";
+    this.color3 = "#f57596";
+    this.bgParticleColor = "#000000";
 
-    this.fontSize = 140;
+    this.fontSize = 100;
     this.fontWeight = 800;
 
     // __defineGetter__ and __defineSetter__ make JavaScript believe that

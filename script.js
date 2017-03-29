@@ -49,7 +49,7 @@ window.onload = function() {
 
 		////////////////////////////
 
-	var fizzyText = new FizzyText('Protect trans kids');
+	var fizzyText = new FizzyText('PROTECT TRANS KIDS');
 
 	var gui = new dat.GUI();
 	gui.add(fizzyText, 'message');
